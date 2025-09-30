@@ -1,6 +1,5 @@
-ok to abhi merea maintf ye hai 
 
-```terraform {
+terraform {
   required_version = ">= 1.6.0"
   required_providers {
     aws = {
@@ -31,4 +30,4 @@ resource "aws_s3_bucket" "demo" {
 
 
 resource "random_pet" "name" {}
-output "demo_name" { value = random_pet.name.id }```
+output "demo_name" { value = random_pet.name.id }
